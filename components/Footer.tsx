@@ -22,11 +22,11 @@ const Footer: React.FC = () => {
                         </p>
 
                         <div className='flex items-center my-6 gap-3'>
-                            <div className='text-[25px] text-[#1a1a1a]'><a href='#'><FaFacebook /></a></div>
-                            <div className='text-[25px] text-[#1a1a1a]'><a href='#'><FaTwitter /></a></div>
-                            <div className='text-[25px] text-[#1a1a1a]'><a href='#'><FaReddit /></a></div>
-                            <div className='text-[25px] text-[#1a1a1a]'><a href='#'><FaDiscord /></a></div>
-                            <div className='text-[25px] text-[#1a1a1a]'><a href='#'><AiFillInstagram /></a></div>
+                            <div className='text-[25px] text-[#1a1a1a] dark:text-[white]'><a href='#'><FaFacebook /></a></div>
+                            <div className='text-[25px] text-[#1a1a1a] dark:text-[white]'><a href='#'><FaTwitter /></a></div>
+                            <div className='text-[25px] text-[#1a1a1a] dark:text-[white]'><a href='#'><FaReddit /></a></div>
+                            <div className='text-[25px] text-[#1a1a1a] dark:text-[white]'><a href='#'><FaDiscord /></a></div>
+                            <div className='text-[25px] text-[#1a1a1a] dark:text-[white]'><a href='#'><AiFillInstagram /></a></div>
                         </div>
 
                     </div>

@@ -66,12 +66,12 @@ const Navbar: React.FC = () => {
                         {isDarkMode ? <LuSun /> : <IoMoonOutline />}
                     </div>
 
-                    <Link href="/">
+                    {/* <Link href="/">
                         Sign In
                     </Link>
                     <Link href="/" className='bg-blue-500 px-3 py-1.5 rounded-md text-white font-bold active:scale-90 hover:scale-110 transition-transform'>
                         Sign Up
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Mobile Menu */}
@@ -110,12 +110,12 @@ const Navbar: React.FC = () => {
                     <div className="text-center my-2">
                         <Link href="/">Services</Link>
                     </div>
-                    <div className="text-center my-2">
+                    {/* <div className="text-center my-2">
                         <Link href="/">Sign In</Link>
                     </div>
                     <div className="text-center my-2">
                         <Link href="/">Sign Up</Link>
-                    </div>
+                    </div> */}
                 </div>
             )}
         </nav>

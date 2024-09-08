@@ -31,8 +31,8 @@ const TopComponent: React.FC = () => {
                     <a href="https://hello.makemymenu.online/menu">
 
                         <button className="jump bg-red-500 px-4 py-2 rounded-md text-white flex items-center space-x-2 ">
-                            <AiFillYoutube />
-                            <span className="font-bold md:text-[18px] text-[13px]">Watch Demo</span>
+                            {/* <AiFillYoutube /> */}
+                            <span className="font-bold md:text-[18px] text-[13px]">Take Demo</span>
                         </button>
                     </a>
                 </div>

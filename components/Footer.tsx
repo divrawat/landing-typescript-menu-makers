@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
 
-                <p className="text-xs text-gray-500">&copy; 2024. Company Name. All rights reserved.</p>
+                <p className="text-xs text-gray-500">&copy; 2024. Make My Menu, All rights reserved.</p>
             </div>
         </footer>
 

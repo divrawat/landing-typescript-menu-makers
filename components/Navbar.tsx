@@ -52,8 +52,8 @@ const Navbar: React.FC = () => {
                     <Link href="/" className='hover:text-[#6f6fde]'>
                         About
                     </Link>
-                    <Link href="/" className='hover:text-[#6f6fde]'>
-                        How It works
+                    <Link href="/#faq" className='hover:text-[#6f6fde]'>
+                        FAQ
                     </Link>
                     {/* <Link href="/" className='hover:text-[#6f6fde]'>
                         Support

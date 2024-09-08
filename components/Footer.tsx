@@ -95,9 +95,9 @@ const Footer: React.FC = () => {
                             <p className="font-medium text-gray-900">Services</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
-                                <li>
+                                {/* <li>
                                     <a href="#" className="text-gray-700 dark:text-[white] transition hover:opacity-75"> 1on1 Coaching </a>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <a href="#" className="text-gray-700 dark:text-[white] transition hover:opacity-75"> Company Review </a>

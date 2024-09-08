@@ -21,15 +21,20 @@ const TopComponent: React.FC = () => {
                 </p>
 
                 <div className="flex items-center my-10 gap-5 flex-wrap">
-                    <button className="jump bg-green-500 px-4 py-2 rounded-md text-white flex items-center space-x-2 transition-transform active:scale-95 hover:scale-110">
-                        <TfiAndroid />
-                        <span className="font-bold md:text-[18px] text-[13px]">Download App</span>
-                    </button>
+                    <a href="#">
+                        <button className="jump bg-green-500 px-4 py-2 rounded-md text-white flex items-center space-x-2 ">
+                            <TfiAndroid />
+                            <span className="font-bold md:text-[18px] text-[13px]">Download App</span>
+                        </button>
+                    </a>
 
-                    <button className="jump bg-red-500 px-4 py-2 rounded-md text-white flex items-center space-x-2 transition-transform active:scale-95 hover:scale-110">
-                        <AiFillYoutube />
-                        <span className="font-bold md:text-[18px] text-[13px]">Watch Demo</span>
-                    </button>
+                    <a href="https://hello.makemymenu.online/menu">
+
+                        <button className="jump bg-red-500 px-4 py-2 rounded-md text-white flex items-center space-x-2 ">
+                            <AiFillYoutube />
+                            <span className="font-bold md:text-[18px] text-[13px]">Watch Demo</span>
+                        </button>
+                    </a>
                 </div>
             </div>
 

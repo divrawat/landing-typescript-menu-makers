@@ -17,8 +17,7 @@ const Footer: React.FC = () => {
                         </div>
 
                         <p className="mt-4 max-w-xs text-gray-500 dark:text-[whitesmoke]">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-                            molestias.
+                            Innovative solution designed to empwer restaurant owners
                         </p>
 
                         <div className='flex items-center my-6 gap-3'>

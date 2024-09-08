@@ -15,10 +15,10 @@ const Home: React.FC = () => {
 
       <div className="text-center mt-16 px-4">
         <h2 className="font-bold text-4xl text-[#1a1a1a] dark:text-white">
-          Full-Featured Next.js Starter Kit
+          Platform Integration
         </h2>
         <p className="max-w-[800px] my-5 mx-auto text-[#414040] dark:text-[whitesmoke]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+          Seamlessly integrate with popular food delivery platforms across India, offering exclusive deals to enhance the user experience
         </p>
       </div>
 

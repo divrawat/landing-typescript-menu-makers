@@ -9,33 +9,33 @@ interface Item {
 const items: Item[] = [
     {
         icon: <FaBeer size={40} />,
-        heading: "For Functional App Sites",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Easy To Use",
+        paragraph: "Intuitive design allows restuarant owners to create and manage their menus"
     },
     {
         icon: <FaCoffee size={40} />,
-        heading: "High-quality Design",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Customizable Templates",
+        paragraph: "Choose a variety of templates to suit your restaurant's brand and style"
     },
     {
         icon: <FaApple size={40} />,
-        heading: "Essential Integrations",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Interactive Menu Items",
+        paragraph: "Add descriptions, ingredients, and images to your menu items"
     },
     {
         icon: <FaCar size={40} />,
-        heading: "Essential Components",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Menu Analytics",
+        paragraph: "Gain valuable insights about your menu items and customer preferences"
     },
     {
         icon: <FaBicycle size={40} />,
-        heading: "Fully Customizable",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Integration",
+        paragraph: "Connect menus to popular food delivery platforms across India"
     },
     {
         icon: <FaBolt size={40} />,
-        heading: "Regular Free Updates",
-        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor"
+        heading: "Free To Use",
+        paragraph: "Make my menu is free to use for all restaurant owners"
     }
 ];
 

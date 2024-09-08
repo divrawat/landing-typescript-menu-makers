@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
 
                 {/* Middle: Pages */}
                 <div className="hidden md:flex space-x-8">
-                    <Link href="/" className='hover:text-[#6f6fde]'>
+                    <Link href="/#features" className='hover:text-[#6f6fde]'>
                         Features
                     </Link>
                     <Link href="/" className='hover:text-[#6f6fde]'>
@@ -55,9 +55,9 @@ const Navbar: React.FC = () => {
                     <Link href="/" className='hover:text-[#6f6fde]'>
                         How It works
                     </Link>
-                    <Link href="/" className='hover:text-[#6f6fde]'>
+                    {/* <Link href="/" className='hover:text-[#6f6fde]'>
                         Support
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Right: Dark Mode and Auth Links */}

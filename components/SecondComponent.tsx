@@ -41,7 +41,7 @@ const items: Item[] = [
 
 const SecondComponent: React.FC = () => {
     return (
-        <div className="max-w-[1300px] mx-auto mt-16">
+        <div className="max-w-[1300px] mx-auto mt-16" id="features">
             <h2 className="text-3xl font-semibold text-center text-[#1a1a1a] dark:text-white my-8">Features</h2>
 
             <div className="flex justify-center items-center gap-10 flex-wrap px-4">

@@ -9,31 +9,32 @@ const Home: React.FC = () => {
       <Head>
         <title>Privacy Policy</title>
         <meta name="description" content="Privacy Policy" />
-        <link rel="icon" href="/favicon.ico" />
+
       </Head>
     )
   }
 
   return (
     <div className="dotted-bg">
+      {head()}
       <Navbar />
 
-      <div className='p-4 max-w-[1000px] mx-auto'>
+      <div className='p-4 max-w-[1000px] mx-auto dark:text-white'>
 
         <h1 className='text-center text-3xl'>Privacy Policy</h1>
 
         <h2 className='text-2xl py-4'>Introduction</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>Welcome to Make My Menu Online. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our mobile application ("App").</p>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>Welcome to Make My Menu Online. We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you use our mobile application ("App").</p>
 
 
         <h2 className='text-2xl py-4'>Information We Collect</h2>
 
         <h3 className='text-xl'>Personal Information</h3>
 
-        <p className='py-2 text-[#3e3e3e]'>When you use our App, we may collect personal information that can be used to identify you, such as:</p>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>When you use our App, we may collect personal information that can be used to identify you, such as:</p>
 
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>Name</li>
           <li>Email address</li>
           <li>Contact number</li>
@@ -42,8 +43,8 @@ const Home: React.FC = () => {
 
         <h3 className='text-xl py-3'>Non-Personal Information</h3>
 
-        <p className='py-2 text-[#3e3e3e]'>We may also collect non-personal information that cannot be used to identify you, such as:</p>
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>We may also collect non-personal information that cannot be used to identify you, such as:</p>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>Device information (e.g., device type, operating system, and unique device identifiers)</li>
           <li>Usage data (e.g., time spent on the app, pages visited, and other usage patterns)</li>
         </ul>
@@ -52,8 +53,8 @@ const Home: React.FC = () => {
         <h2 className='text-2xl py-4'>How We Use Your Information</h2>
 
         <h3 className='text-xl py-3'>Personal Information</h3>
-        <p className='py-2 text-[#3e3e3e]'>We may use your personal information for the following purposes:</p>
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>We may use your personal information for the following purposes:</p>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>To provide and improve our services</li>
           <li>To communicate with you about your account or transactions</li>
           <li>To send you promotional materials or notifications about new features</li>
@@ -63,8 +64,8 @@ const Home: React.FC = () => {
 
 
         <h3 className='text-xl'>Non Personal Information</h3>
-        <p className='py-2 text-[#3e3e3e]'>We use non-personal information to:</p>
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>We use non-personal information to:</p>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>Analyze usage patterns to improve our App</li>
           <li>Ensure the technical functionality of our services</li>
           <li>Improve user experience</li>
@@ -73,8 +74,8 @@ const Home: React.FC = () => {
 
         <h2 className='text-2xl py-4'>Sharing Your Information</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>We do not sell, trade, or otherwise transfer your personal information to third parties, except in the following circumstances:</p>
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>We do not sell, trade, or otherwise transfer your personal information to third parties, except in the following circumstances:</p>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>With your consent</li>
           <li>To comply with legal obligations</li>
           <li>To protect and defend our rights and property</li>
@@ -89,13 +90,13 @@ const Home: React.FC = () => {
         <h2 className='text-2xl py-4'>Data Security</h2>
 
 
-        <p className='py-2 text-[#3e3e3e]'>We implement various security measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>We implement various security measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
 
 
         <h2 className='text-2xl py-4'>Your Rights</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>You have the right to:</p>
-        <ul className='list-disc pl-8 text-[#3e3e3e]'>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>You have the right to:</p>
+        <ul className='list-disc pl-8 text-[#3e3e3e] dark:text-[#a4a0a0]'>
           <li>Access and review the personal information we hold about you</li>
           <li> Request corrections to any inaccurate or incomplete information</li>
           <li>Request the deletion of your personal information</li>
@@ -107,24 +108,24 @@ const Home: React.FC = () => {
 
         <h2 className='text-2xl py-4'>Third-Party Links</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>Our App may contain links to third-party websites. We are not responsible for the privacy practices of these sites. We encourage you to review their privacy policies before providing any personal information.</p>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>Our App may contain links to third-party websites. We are not responsible for the privacy practices of these sites. We encourage you to review their privacy policies before providing any personal information.</p>
 
 
 
         <h2 className='text-2xl py-4'>Changes to This Privacy Policy</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We encourage you to review this Privacy Policy periodically for any updates.</p>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We encourage you to review this Privacy Policy periodically for any updates.</p>
 
 
         <h2 className='text-2xl py-4'>Contact Us</h2>
 
-        <p className='text-[#3e3e3e] py-2 '>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-        <ul className='list-disc text-[#3e3e3e] pl-8'>
+        <p className='text-[#3e3e3e] dark:text-[#a4a0a0] py-2 '>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+        <ul className='list-disc text-[#3e3e3e] dark:text-[#a4a0a0] pl-8'>
           <li> Email: support@makemymenuonline.com</li>
           <li> Address: [Your Company Address]</li>
         </ul>
 
-        <p className='py-2 text-[#3e3e3e]'>By using our App, you consent to our Privacy Policy.</p>
+        <p className='py-2 text-[#3e3e3e] dark:text-[#a4a0a0]'>By using our App, you consent to our Privacy Policy.</p>
 
 
       </div>

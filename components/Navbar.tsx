@@ -46,11 +46,11 @@ const Navbar: React.FC = () => {
 
                 {/* Middle: Pages */}
                 <div className="hidden md:flex space-x-8">
-                    <Link href="/#features" className='hover:text-[#6f6fde]'>
+                    <Link href="/features" className='hover:text-[#6f6fde]'>
                         Features
                     </Link>
-                    <Link href="/" className='hover:text-[#6f6fde]'>
-                        About
+                    <Link href="/how-to-use" className='hover:text-[#6f6fde]'>
+                        How To Use
                     </Link>
                     <Link href="/#faq" className='hover:text-[#6f6fde]'>
                         FAQ

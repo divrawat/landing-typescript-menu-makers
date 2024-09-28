@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
 
 
                         <div>
-                            <p className="font-medium text-gray-900">Company</p>
+                            <p className="font-medium text-gray-900 dark:text-[white]">Company</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                         </div>
 
                         <div>
-                            <p className="font-medium text-gray-900">Helpful Links</p>
+                            <p className="font-medium text-gray-900 dark:text-[white]">Helpful Links</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
                         </div>
 
                         <div>
-                            <p className="font-medium text-gray-900">Legal</p>
+                            <p className="font-medium text-gray-900 dark:text-[white]">Legal</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 <li>
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
                         </div>
 
                         <div>
-                            <p className="font-medium text-gray-900">Services</p>
+                            <p className="font-medium text-gray-900 dark:text-[white]">Services</p>
 
                             <ul className="mt-6 space-y-4 text-sm">
                                 {/* <li>
